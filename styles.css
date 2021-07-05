@@ -1,0 +1,26 @@
+body {
+  background: orange;
+}
+h1 {
+  margin: 3rem;
+}
+div {
+  margin: 3rem;
+}
+a {
+  margin: 1rem;
+}
+#star-container {
+  position:  absolute;
+margin: 1rem;
+  background-color: blue;
+}
+
+.star  {
+  height: 8 rem;
+background-color: purple;
+width: 20%;
+}
+.checked {
+  background-color: red;
+}

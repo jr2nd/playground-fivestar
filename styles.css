@@ -11,16 +11,14 @@ a {
   margin: 1rem;
 }
 #star-container {
-  position:  absolute;
 margin: 1rem;
   background-color: blue;
 }
-
 .star  {
-  height: 8 rem;
 background-color: purple;
-width: 20%;
 }
-.checked {
+.star-rated {
   background-color: red;
+}
+#comment {
 }

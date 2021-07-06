@@ -4,21 +4,40 @@ body {
 h1 {
   margin: 3rem;
 }
-div {
-  margin: 3rem;
-}
 a {
   margin: 1rem;
 }
 #star-container {
-margin: 1rem;
+  display: flex;
+  flex-wrap: nowrap;
   background-color: blue;
+  margin-left: auto;
+  margin-right: auto;
+  width: 40%;
+}
+#star-container::before {
+ content: "This app sucks!";
+ background-color: lightblue;
+}
+#star-container::after {
+content: "This app is awesome";
+background-color: lightblue;
 }
 .star  {
-background-color: purple;
+  flex: 20%;
+background-color: navy;
+color: gold;
 }
 .star-rated {
   background-color: red;
 }
 #comment {
+  margin-left: auto;
+  margin-right: auto;
+}
+
+@media screen and (max-width: 400px)
+{
+  body {background-color: blue;
+  }
 }
